@@ -1,0 +1,27 @@
+.image {
+    float: left;
+    padding: 15px;
+    width: 230px;
+}
+
+h2 {font-size: 22px; 
+    color: darkgreen;
+}
+
+p {font-size: 18px;
+    line-height: 25px;
+
+}
+
+.headline {font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+a { text-decoration: none;
+    
+}
+
+a:hover { text-decoration: underline
+}
+.uppercase {text-transform: uppercase; 
+}
