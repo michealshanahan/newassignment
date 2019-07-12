@@ -1,0 +1,55 @@
+.topdiv {
+    background-color: #f5c6d6;
+    width: 98%;
+    height: 180px;
+    box-sizing: border-box;
+    font-size: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+
+}
+.pinkdiv{
+    display: inline-block;
+    width: 24.3%;
+    height: 180px;
+    background-color: #ee2e84;
+    box-sizing: border-box;
+    font-size: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+.bluediv {
+    display: inline-block;
+    width: 48.9%;
+    height: 180px;
+    background-color: #85cfd8;
+    box-sizing: border-box;
+    font-size: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+.greendiv {
+    display: inline-block;
+    width: 72.9%;
+    height: 180px;
+    background-color: #8DC63F;
+    box-sizing: border-box;
+    font-size: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+.orangediv {
+    display: inline-block;
+    width: 24.8%;
+    height: 180px;
+    background-color: #E76E34;
+    box-sizing: border-box;
+    font-size: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
