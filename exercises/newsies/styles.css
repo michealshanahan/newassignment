@@ -1,12 +1,13 @@
 .title {
     font-family: 'Great Vibes', cursive;
-    text-align: center;
     font-size: 200%;
+    text-align: center;
 }
 .titleTop {
     font-size: 80px;
     margin-bottom: 0; 
     margin-top: 10px;
+    text-align: center;
 }
 .titleBottom {
     font-size: 100px;
@@ -25,7 +26,7 @@
     font-weight: bold;
     text-align: center;
     display: inline-block;
-    width: 32%;
+    width: 30%;
     vertical-align: top;
     margin: 0 0 0 0;
 }
@@ -43,12 +44,10 @@
 }
 .leftImage{
     width: 30%;
-    display: inline;
-    float: left;
+    float:;
 }
 .rightImage{
     float: right;
-    display:inline;
 }
 .leftSide{
     display: inline-block;
@@ -57,6 +56,13 @@
     text-align: left;
     col-align: 
     
+}
+.article{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: justify;
+    padding: 10px;
 }
 .rightSide{
     display: inline-block;

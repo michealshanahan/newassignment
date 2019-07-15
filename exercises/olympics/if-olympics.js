@@ -13,7 +13,7 @@ if(dog === cat){
 }
 var person = {
     name: "Bobby",
-    age: 12
+    age: 12,
 }
 if(person.age >= 18){
     console.log("is allowed to go to the movie")
@@ -59,7 +59,7 @@ if (typeof varName !== "undefined"){
     console.log("var does not exist")
 }
 // var s can be changed. "13" returns greater than, as well as 13
-var s= "13"
+var s= "s"
 if (s > 12){
     console.log("s is greater than 12")
 }else {

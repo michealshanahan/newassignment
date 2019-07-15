@@ -42,15 +42,25 @@ for(j=0; j < peopleWhoWantToSeeMadMaxFuryRoad.length; j++){
 //  duplicate for second bonus
 for(j=0; j < peopleWhoWantToSeeMadMaxFuryRoad.length; j++){
     if(peopleWhoWantToSeeMadMaxFuryRoad[j].age < 18 && peopleWhoWantToSeeMadMaxFuryRoad[j].gender === "female") {
-        console.log(peopleWhoWantToSeeMadMaxFuryRoad[j].name + " is not old enough to go. Don't let her in")
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[j].name + " is not old enough to go. Don't let her in");
     }else if(peopleWhoWantToSeeMadMaxFuryRoad[j].age < 18)
-        console.log(peopleWhoWantToSeeMadMaxFuryRoad[j].name + " is not old enough to go! Don't let him in")
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[j].name + " is not old enough to go! Don't let him in");
     else if(peopleWhoWantToSeeMadMaxFuryRoad[j].gender === "male"){
-        console.log(peopleWhoWantToSeeMadMaxFuryRoad[j].name + " is old enough to go. Let him in!")
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[j].name + " is old enough to go. Let him in!");
     }else {
-        console.log(peopleWhoWantToSeeMadMaxFuryRoad[j].name + " is old enough to go. Let her in!!")
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[j].name + " is old enough to go. Let her in!!");
     }
 }
 // optional Bonus
-const myArray = [2, 3,2]
-reduce (myArray)
+const myArray = [2, 5, 435, 4, 3];
+let sumOfArray = 0;
+for( i = 0; i < myArray.length; i++){
+    sumOfArray += myArray[i];
+}
+if (sumOfArray % 2 === 0){
+      console.log("The light is switched off")
+    }else{
+      console.log("The light is switched on")
+}
+console.log(sumOfArray)
+

@@ -31,6 +31,29 @@ function fibs(n){
         return sumOfFibs
 }
 
-console.log(fibs(8))
+console.log(fibs(1))
+
+// quadratic eqauation ax2+bx+c=0 bsq-4ac
+// will show if lines do not intersect
+function quadraticEquation(a, b, c){
+   let plusMinus = Math.sqrt((b * b) - (4 * a * c));
+   let intersectPoint = [((- b + plusMinus) / (2 * a)), (((-b - plusMinus) / (2 * a)))];
+   if( isNaN(intersectPoint[0])){
+       return "No Intersect Point";    
+   } else return intersectPoint;
+}
+console.log(quadraticEquation( 8, 67, 15))
 
 
+let charString = "this the", charCount = [];
+let characterArray = {};
+ for( i = 0; i < charString.length; i++){
+     char = charString.charAt(i)
+     count = characterArray[char]
+     characterArray[char] = count ? count + 1: 1
+ }
+ for( i = 0; i < characterArray.length; i++){
+    
+ }       
+ let highestCount = Math.ceil(characterArray[i])
+ console.log(highestCount)
