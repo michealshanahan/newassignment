@@ -1,0 +1,300 @@
+body{
+    margin: 0%
+}
+
+.flagContainer{
+    width: 300px;
+    height: 200px;
+    border-top: solid;
+    border-bottom: solid;
+    display: inline-block;
+}
+.whiteFrance{
+    background-color:white;
+    display: inline-block;
+    width: 32%
+}
+.blueFrance{
+    background-color:blue;
+    height: 100%;
+    width: 32%;
+    display: inline-block;
+}
+.redFrance{
+    background-color: red;
+    height: 100%;
+    width: 32%;
+    display: inline-block;
+}
+.germanyTopBlack{
+    background-color:black;
+    height: 33%;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: -4px;
+}
+.germanyRedMiddle{
+    background-color:red;
+    height: 33%;
+    width: 100%;
+    display: inline-block;
+}
+.germanyYellowBottom{
+    background-color:yellow;
+    height: 33%;
+    width: 100%;
+    display: inline-block;
+    margin-top: -4px
+}
+.madagascarRedTopRight{
+    float: right;
+    background-color: red;
+    width: 73%;
+    height: 49%;
+    vertical-align: top;
+}
+.madagascarGreenBottomRight{
+    float: right;
+    vertical-align: top;
+    width:73%;
+    height: 48%;
+    background-color: green;
+}
+.redFieldSwitz{
+background-color: red;
+}
+.whiteVerticalCross{
+    width: 116%;
+    height: 50%;
+    background-color: white;
+    display: inline-block;
+}
+.whiteHorizontalCross{
+    width: 38%;
+    height: 150%;
+    background-color: white;
+    display: inline-block;
+    margin-top: -70%;
+    margin-left: 10%;
+}
+.swissCrossContainer{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    margin-top: 15%;
+    margin-left: 29%;
+}
+.swissBottom{
+    margin-top: 0%;
+    margin-left: 10%;
+}
+.swissTop{
+    margin-top: 24%;
+    margin-left: -27%;
+}
+.blueFieldSweden{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.yellowVerticleCross{
+    width: 14%;
+    background-color: yellow;
+    height: 100%;
+    display: inline-block;
+    margin-top: -39%;
+    margin-left: 20%;
+}
+.yellowHorizontalCross{
+    width: 100%;
+    background-color: yellow;
+    height: 23%;
+    display: inline-block;
+    margin-top: 23%;
+    margin-left: 0%;
+}
+.redTopWhiteBottom{
+    width: 98%;
+    height: 31%;
+    border-bottom: solid;
+    border-width: 4%;
+    border-color: white;
+    background-color: red;
+}
+.blueMiddleWhiteBottom{
+    width: 98%;
+    height: 31%;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: 4%;
+    border-color: white;
+    background-color: blue;
+}
+.greenBottomWhiteTop{
+    width: 98%;
+    height: 31%;
+    border-top: solid;
+    border-width: 4%;
+    border-color: white;
+    background-color: green;
+}
+.redFieldMain{
+    background-color: red;
+    width: 98%;
+    height: 98%;
+    display: inline-block;
+}
+.whiteFieldTopLeft{
+    background-color: white;
+    width: 38%;
+    height: 50%;
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: -204px;
+}
+.verticleCrossRedTonga{
+    background-color: red;
+    width: 9%;
+    height: 39%;
+    display: inline-block;
+    position: relative;
+    right: 27%;
+    bottom: 107%;
+}
+.horizontalCrossRedTonga{
+    background-color: red;
+    width: 27%;
+    height: 13%;
+    display: inline-block;
+    position: relative;
+    right: 46%;
+    top: -120%;
+}
+.redDotJapan{
+    border-radius: 50%;
+    width: 42%;
+    height: 56%;
+    background-color: red;
+    display: inline-block;
+    margin-top: 13%;
+    margin-left: 27%;
+}
+.mainFieldBlueGreece{
+    background-color: blue;
+    width: 99%;
+    height: 99%;
+    display: inline-block;
+}
+.shortTopGreece{
+    top: 10%;
+    left: 10%;
+    display: inline-block;
+    background-color: white;
+    width: 59%;
+    height: 11%;
+    margin-left: 41%;
+    margin-top: 7%;
+}
+.bottomGreece{
+    top: 40%;
+    left: 10%;
+    display: inline-block;
+    background-color: white;
+    width: 59%;
+    height: 11%;
+    margin-left: 41%;
+    margin-top: -1%;
+}
+.verticleCrossWhiteGreece{
+    position: absolute;
+    top: 302%;
+    left: -38%;
+    display: inline-block;
+    background-color: white;
+    width: 2%;
+    height: 15%;
+    margin-left: 43%;
+    margin-top: 8%;
+}
+.horizontalCrossWhiteGreece{
+    top: 40%;
+    left: 10%;
+    display: inline-block;
+    background-color: white;
+    width: 59%;
+    height: 11%;
+    margin-left: -18%;
+    margin-top: -1%;
+}
+.longTopGreece{
+    display: inline-block;
+    background-color: white;
+    width: 99%;
+    height: 11%;
+    margin-left: 1%;
+    margin-top: 6%;
+}
+.longBottomGreece{
+    display: inline-block;
+    background-color: white;
+    width: 99%;
+    height: 11%;
+    margin-left: 1%;
+    margin-top: 6%;
+}
+.redNigerTop{
+    width: 99%;
+    height: 33%;
+    background-color: red;
+    display: inline-block;
+}
+.redNigerDot{
+    width: 32%;
+    height: 38%;
+    background-color: red;
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 31%;
+    border-radius: 50%;
+}
+.greeNigerBottom{
+    width: 99%;
+    height: 33%;
+    background-color: green;
+    display: inline-block;
+    margin-top: 1%;
+}
+.redFieldMaldives{
+    width: 99%;
+    height: 99%;
+    background-color: red;
+    display: inline-block;
+}
+.greenFieldMaldives{
+    width: 70%;
+    height: 55%;
+    background-color: green;
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 14%;
+}
+.whiteMoonDotMaldives{
+    width: 39%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin-top: 9%;
+    margin-left: 35%;
+}
+.greenMoonDotMaldives{
+    width: 100%;
+    height: 110%;
+    border-radius: 50%;
+    background-color: green;
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 29%;
+}

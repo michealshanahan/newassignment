@@ -44,7 +44,7 @@
 }
 .leftImage{
     width: 30%;
-    float:;
+    display: inline-block;
 }
 .rightImage{
     float: right;
@@ -54,7 +54,6 @@
     width: 30%;
     vertical-align: top;
     text-align: left;
-    col-align: 
     
 }
 .article{
@@ -63,6 +62,7 @@
     vertical-align: top;
     text-align: justify;
     padding: 10px;
+    position: relative;
 }
 .rightSide{
     display: inline-block;

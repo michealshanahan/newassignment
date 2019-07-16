@@ -23,15 +23,15 @@ function stringHalf(string){
 }
 console.log(stringHalf("first lkjadsfjkldsfajkldafsjkadfs last"))
 
-let fibonacci = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
-let sumOfFibs = 0
-function fibs(n){
-        for(i = 0; i < n; i++){
-        sumOfFibs += fibonacci[i]}
-        return sumOfFibs
-}
+// let fibonacci = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
+// let sumOfFibs = 0
+// function fibs(n){
+//         for(i = 0; i < n; i++){
+//         sumOfFibs += fibonacci[i]}
+//         return sumOfFibs
+// }
 
-console.log(fibs(1))
+// console.log(fibs(1))
 
 // quadratic eqauation ax2+bx+c=0 bsq-4ac
 // will show if lines do not intersect
@@ -57,3 +57,29 @@ let characterArray = {};
  }       
  let highestCount = Math.ceil(characterArray[i])
  console.log(highestCount)
+
+
+ function frequent(str){
+    let mainCount = 0;
+    let letter = '';
+    for(let i = 0; i < str.length; i++){
+        let tempCount = 0;
+        for(let j = 0; j < str.length; j++){
+            if(str[i] === str[j]){
+                tempCount++
+            }
+            if (tempCount > mainCount){
+                mainCount = tempCount
+                letter = str[i]
+            }
+        }
+        
+    }
+    return letter
+ }
+
+ console.log(frequent('heeeezzzhzzzzzzzzzzzzzzzeeeelly'))
+
+
+
+
