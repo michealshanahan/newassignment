@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <form id="master" name="userInfo">
+            First Name: <input name ="firstName"/>
+            Last Name: <input name = "lastName"/>
+            <br>
+            Age: <input type="number" name="age"/>
+            <br>
+            Gender: Male<input value="Male" type="radio" name="gender">
+            Female<input value="Female" type="radio" name="gender">
+            <br>
+            <select name="destinations">
+                <option value="Puerto Penasco" name = "destBox">Puerto Penasco</option>
+                <option value="Port Au Prince" name = "destBox">Port Au Prince</option>
+                <option value="portAuthority" name = "destBox">Port Authority</option>
+            </select>
+            <br>
+            Dietary Restrictions:
+            <br>
+            <label><input name="diet" value="Vegan" type="checkbox"/>Vegan</label>
+            <label><input name="diet" value="Kosher" type="checkbox"/>Kosher</label>
+            <label><input name="diet" value="Childrens" type="checkbox"/>Childrens</label>
+            <br>
+            <br>
+            <button class="submit" name="submitButton">Submit</button>
+        </form>
+        
+       <script src="app.js"></script>
+    </body>
+    </html>

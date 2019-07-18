@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://www.retrogames.cz/grafika/konzole/NES-Super_Mario_Bros.gif");
+    height: 100%;
+}
+.bombPic{
+    width: 30vw;
+    height: auto;
+    min-width: 17vw;
+}
+.gooPic{
+    width: 33vw;
+    height: auto;
+    min-width: 17vw;
+    max-width: 500px;
+}
+.cheepPic{
+    width: 30vw;
+    height: auto;
+    min-width: 17vw;
+}
+.backImage{
+
+}

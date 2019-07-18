@@ -1,0 +1,21 @@
+.navBar{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 8%;;
+    background-color: #F8F4E3;
+}
+.navItem{
+    text-align: center;
+    text-decoration: none;
+    padding: 10%;
+    color: #9A998C;
+}
+body {
+    color: #9A998C;
+    background-color: #D5D0CD;
+}
+.pageTitle{
+    text-align: center;
+}

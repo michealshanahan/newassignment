@@ -1,0 +1,42 @@
+.myBox{
+    height: 5410px;
+    width: 75%;
+    background-color: black;
+    align-items: center;
+    margin: 135px 136px 99px 154px;
+}
+.blueHover{
+    height: 5410px;
+    width: 75%;
+    background-color: blue;
+    align-items: center;
+    margin: 135px 136px 99px 154px;
+}
+.redClick{
+    height: 5410px;
+    width: 75%;
+    background-color: red;
+    align-items: center;
+    margin: 135px 136px 99px 154px;
+}
+.upYellow{
+    height: 5410px;
+    width: 75%;
+    background-color: yellow;
+    align-items: center;
+    margin: 135px 136px 99px 154px;
+}
+.greenDouble{
+    height: 5410px;
+    width: 75%;
+    background-color: green;
+    align-items: center;
+    margin: 135px 136px 99px 154px;
+}
+.window{
+    height: 5410px;
+    width: 75%;
+    background-color: orange;
+    align-items: center;
+    margin: 135px 136px 99px 154px;
+}
