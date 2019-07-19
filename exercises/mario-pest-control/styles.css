@@ -1,23 +1,51 @@
+@font-face {
+    font-family: superMario;
+    src: url("./assets/SuperMario256.ttf");
+  }
 body {
     background-image: url("https://www.retrogames.cz/grafika/konzole/NES-Super_Mario_Bros.gif");
     height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    font-family: superMario;
+}
+.title{
+    text-align: center;
+    font-size: 336%;
+    margin-top: 10%;
+    color: darkgreen;
 }
 .bombPic{
-    width: 30vw;
+    width: 19%;
     height: auto;
-    min-width: 17vw;
 }
 .gooPic{
-    width: 33vw;
+    width: 19%;
     height: auto;
-    min-width: 17vw;
-    max-width: 500px;
 }
-.cheepPic{
-    width: 30vw;
+.goomba{
+}
+.cheepPic{  
+    width: 19%;
     height: auto;
-    min-width: 17vw;
 }
-.backImage{
+.pic{
+    width: 12%;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+.formText{
+    display: inline-block;
+    font-size: 120%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.container{
+    display: inline-block;
 
+}
+.g {
+    margin: 10% 10 10 10;
 }
