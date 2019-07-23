@@ -3,7 +3,7 @@
     src: url("./assets/SuperMario256.ttf");
   }
 body {
-    background-image: url("https://www.retrogames.cz/grafika/konzole/NES-Super_Mario_Bros.gif");
+    background-image: url("data:image/png;base64,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");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,41 +11,97 @@ body {
     max-height: 100%;
     font-family: superMario;
 }
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 90px;
+}
+.calc{
+    height: 20px;
+    width: 110px;
+    margin: auto;
+}
 .title{
     text-align: center;
     font-size: 336%;
-    margin-top: 10%;
-    color: darkgreen;
+    margin-top: 4%;
+    margin-bottom: -2%;
+    color: red;
 }
-.bombPic{
-    width: 19%;
-    height: auto;
+.total{
+    margin-right: auto;
 }
-.gooPic{
-    width: 19%;
-    height: auto;
+.output{
+    margin: auto;
 }
-.goomba{
+.total{
+    margin: auto;
 }
-.cheepPic{  
-    width: 19%;
-    height: auto;
+.fTotal{
+    margin-left: auto;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+.totalText{
+    margin-left: 75.1%;
+}
+.footer{
+    margin-top: 16%;
+    width: 100%;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+a {
+    color: inherit;
+}
+.foot{
+    margin-left: auto;
+    width: 100%;
 }
 .pic{
-    width: 12%;
-    margin-bottom: 3%;
-    display: inline-block;
+    width: 84px;
+    grid-column: 1/2;
+    margin-left: auto;
 }
 .formText{
     display: inline-block;
     font-size: 120%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: auto auto auto 3%;
 }
-.container{
-    display: inline-block;
-
+.form{
+    height: 100%;
 }
-.g {
-    margin: 10% 10 10 10;
+@media (max-width: 600px){
+    .formText {
+        display: none;
+    }
+    .pic{ 
+        width: 103px;
+        margin-left: 7px;
+        margin-bottom: -8px;
+        grid-column: 1/3;
+    }
+    .container{
+        height: 150px;
+    }
+    h3{
+        display: none;
+    }
+    .title{
+        text-align: center;
+        font-size: 200%;
+        margin-top: 4%;
+        margin-bottom: 0%;
+        color: red;
+    }
+    .calc {
+        height: 52px;
+        width: 110px;
+        margin: auto;
+        font-size: 40px;
+        margin-right: 20PX;
+    }   
+    .totalText {
+        margin-left: 43.1%;
+    }
 }
