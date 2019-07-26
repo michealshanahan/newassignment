@@ -38,3 +38,9 @@ function collectAnimals(...animals) {
 
 collectAnimals("dog", "cat", "mouse", "jackolope", "platypus"); 
 console.log(animalArray)
+
+function combineFruit(fruit, sweets, vegetables){
+    return {...fruit, ...sweets, ...vegetables}
+}
+
+console.log(combineFruit(["apple", "pear"], ["cake", "pie"], ["carrit"]))

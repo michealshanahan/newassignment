@@ -19,3 +19,16 @@ body {
 .pageTitle{
     text-align: center;
 }
+.articleTitle{
+    display: flex;
+    justify-content: space-around;
+    height: 50pt;
+    background-color: #F8F4E3;
+    margin-top: 100px;
+}
+.articleImg{
+    float: left;
+    height: auto;
+    width:300pt;
+    padding: 9px;
+}
