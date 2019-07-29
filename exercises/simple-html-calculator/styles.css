@@ -1,0 +1,22 @@
+.header{
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+}
+.add{
+    background-color: blueviolet;
+}
+.subtract{
+    background-color: bisque;
+}
+.multiply{
+    background-color: green;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 120%;
+}
+.output{
+    font-size: 150%;
+}

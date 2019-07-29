@@ -10,7 +10,7 @@ function calculator(){
     if(isNaN(valueA + valueB)){
         return "please enter only numbers"
     }else if(index === 0){
-            return (valueA + valueB)
+            return (parseInt(valueA) + parseInt(valueB))
         }else if(index === 1){
             return (valueA - valueB)
         }else if(index === 2){

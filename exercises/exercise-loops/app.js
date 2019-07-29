@@ -16,7 +16,7 @@ function charMatch(testString, char){
     } return "Character not Found"
 
 }
-console.log(charMatch("this Is my test strIng", "p"))
+console.log(charMatch("this Is my test strIng", "i"))
 
 function findNum(arrayNum, num42){
     for(i = 0; i < arrayNum.length; i++){

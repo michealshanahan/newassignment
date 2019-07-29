@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet"
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
+    <div class="calculator add" id="addCalc">
+        <div class="header">Add Two Numbers</div>
+        <div class="container">First Number to Add:
+            <input class="number" type="number" id="firstAdd">Second Number to Add:
+            <input class="number" type="number" id="secondAdd">
+            <button id="redd">Add</button>
+            <div class="output" id="addOut">Sum: </div>
+        </div>
+    </div>
+    <div class="calculator subtract" id="subCalc">
+        <div class="header">Subtract One Number from Another</div>
+        <div class="container">Starting Value:
+            <input class="number" type="number" id="firstSubtract">
+            Number to Subtract:<input class="number" type="number" id="secondSubtract">
+            <button id="subtract">Subtract</button>
+            <div class="output" id="subtractOut">Difference: </div>
+        </div>
+    </div>
+    <div class="calculator multiply">
+        <div class="header">Multiply Two Numbers</div>
+        <div class="container">
+            Starting Value:<input class="number" type="number" id="firstMultiply">
+            Multiply by:<input class="number" type="number" id="secondMultiply">
+            <button id="multiply">Multiply</button>
+            <div class="output" id="multiplyOut">Product: </div>
+        </div>
+    </div>
     
+    <script src="app.js"></script>
 </body>
 </html>

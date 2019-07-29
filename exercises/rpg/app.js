@@ -109,6 +109,9 @@ if (pName === "Walker"){
     attack += 10;
     hp += 10;
     console.log("Welcome Walker! Since you are the King of the roundhouse your kick has been UPGRADED!")
+}else if (pName === "uuddlrlrbast"){
+    attack += 100;
+    hp += 100;
 }
 const player1 = new Player(pName, hp, attack, inventory, false);
 function play(){
@@ -137,11 +140,14 @@ function encounter(){
         let endGuy = (enemies.length - 1);
         console.log("You see Walker Texas Ranger in the woods ahead! He's been a bad guy the whole time!")
         fight(endGuy);
-    }
-    else{
+    }else{
         let enemy = Math.floor(Math.random() * (enemies.length - 1));
+        if (enemies[enemy].enemyAlive === false){
+            encounter()
+        }else{
         console.log(`${enemies[enemy].name} approaches!`)
         fight(enemy);
+        }
     }
 }
 function fight(enemy){
