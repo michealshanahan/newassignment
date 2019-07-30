@@ -1,5 +1,5 @@
 let boxId = document.getElementById("color");
-document.addEventListener("keydown", function(e){
+document.addEventListener("keydown", (e) => {
     let x = event.keyCode
     if(x === 66){
         boxId.className = "blueHover";   
@@ -14,21 +14,15 @@ document.addEventListener("keydown", function(e){
     }
     else{console.log(x)}
 })
-boxId.addEventListener("mouseleave", function(){
-    boxId.className = "window";
+boxId.addEventListener("mouseleave", () => { boxId.className = "window";
 })
-window.addEventListener("scroll", function(){
-    boxId.className = "window";
+window.addEventListener("scroll", () => { boxId.className = "window";
 })
-clickHold = boxId.addEventListener("mousedown", function(){
-    boxId.className = "redClick";
+clickHold = boxId.addEventListener("mousedown", () => { boxId.className = "redClick";
 })
-upClick = boxId.addEventListener("mouseup", function(){
-    boxId.className = "upYellow";
+upClick = boxId.addEventListener("mouseup", () => { boxId.className = "upYellow";
 })
-doubleClick = boxId.addEventListener("dblclick", function(){
-    boxId.className = "greenDouble";
+doubleClick = boxId.addEventListener("dblclick", () => { boxId.className = "greenDouble";
 })
-mouseOver = boxId.addEventListener("mouseover", function(){
-    boxId.className = "blueHover";
+mouseOver = boxId.addEventListener("mouseover", () => { boxId.className = "blueHover";
 })
