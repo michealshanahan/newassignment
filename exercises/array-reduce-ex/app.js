@@ -83,11 +83,20 @@ var voters = [
 
 const voterResults = (arr) => {
    return arr.reduce((a, b) => {
-      if (arr.age <= 25){
-         return a + b.voted
+      if (b.age <= 25){
+         a.youth++
+         if(b.voted){
+            a.youngVotes++
+         }
       }
-   }
-   ), 0
+      return a
+   }, { youngVotes: 0,
+      youth: 0,
+      midVotes: 0,
+      mids: 0,
+      oldVotes: 0,
+      olds: 0 
+    })
 }
 
 

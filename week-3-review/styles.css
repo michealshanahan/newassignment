@@ -1,0 +1,23 @@
+.meal-list{
+    display: flex;
+    align-items: center;
+    background: #333;
+    color: white;
+    width: 100%;
+    min-height: 100pt;
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20pt;
+    margin: 10pt;
+    background: #f7f7f7;
+    min-width: 40pt;
+    height: 40pt;
+    color: #111;
+}
+
+#pink-square{
+    background: pink;
+}
