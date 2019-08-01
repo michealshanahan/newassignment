@@ -1,4 +1,52 @@
 .picBox{
-    min-width: 50pt;
-    height: 50pt;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    grid-column: 5/6;
+}
+.title{
+    text-align: center;
+    font-size: 40pt;
+}
+.checks{
+    background: teal;
+}
+.todoContainer{
+    width: 70%;
+    height: 60pt;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 3fr 4fr 12fr 5fr 9fr 3fr 3fr;
+    margin: auto;
+}
+.header1{
+    grid-column: 1/3;
+    height: 10pt;
+
+}
+.smallHeader{
+    height: 30pt;
+}
+.clicked{
+    text-decoration: line-through;
+}
+.editDelete{
+    width: 50px;
+    grid-column: 6/7;
+    text-decoration: none;
+}
+.delete{
+    width: 50px;
+    grid-column: 7/8;
+    text-decoration: none !important;
+}
+.red{
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
+div input{
+    height: 25px;
+    margin: auto;
+    margin-left: 12px;
 }

@@ -9,9 +9,16 @@
 </head>
 <body>
     <div class="title">Your ToDo List</div>
-    <div class="todoContainer" id="todoContainer">
-        <div class="items">Things to Do</div>
-        <form name= "checkBox" id="checks">
+    <div class="todoContainer smallHeader" id="todoHeader">
+        <span class="header1">Done</span>
+        <span class="header2">Description</span>
+        <span class="header3">Price</span>
+        <span class="header4">Picture</span>
+    </div>
+    <div class="toContainer" id="todoContainer">
+        <div class="items"></div>
+        <form class="checks" name= "checkBox" id="checks">
+
             
 
         </form>
@@ -19,8 +26,9 @@
     <div class="create">Create Item
         <form id="form">
             <span class="formText" name="title" id="titleInput">What do you need to do?</span><input name="title" required type="text" class="formField"><br>
-            <span class="formText" name="descriptiom" id="descriptionInput">Description:</span><input type="text" class="formField"><br>
-            <span class="formText" name="picture" id="pictureInput">Picture URL:</span><input type="text" class="formField"><br>
+            <span class="formText" id="priceInput">Estimated Cost:</span><input name="price" type="number" class="formField"><br>
+            <span class="formText" name="descriptiom" id="descriptionInput">Description:</span><input name="description" type="text" class="formField"><br>
+            <span class="formText" name="picture" id="pictureInput">Picture URL:</span><input type="text" name="picUrl" class="formField"><br>
             <input type="button" id="submit" Value="Submit">
         </form>
     </div>
