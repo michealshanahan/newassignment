@@ -66,6 +66,8 @@ var arrays = [
 console.log(flatten(arrays)); // ["1", "2", "3", true, 4, 5, 6];
 
 
+
+
 var voters = [
    {name:'Bob' , age: 30, voted: true},
    {name:'Jake' , age: 32, voted: true},
@@ -81,33 +83,40 @@ var voters = [
    {name: 'Zack', age: 19, voted: false}
 ];
 
-const voterResults = (arr) => {
-   return arr.reduce((a, b) => {
-      if (b.age <= 25){
-         a.youth++
-         if(b.voted){
-            a.youngVotes++
-         }
-      }
-      return a
-   }, { youngVotes: 0,
-      youth: 0,
-      midVotes: 0,
-      mids: 0,
-      oldVotes: 0,
-      olds: 0 
-    })
-}
+function voterResults(arr) {
+   return arr.reduce((a, b) =>{
+         if(b.age < 26){
+            a.youth ++;
+            if(b.voted){
+               a.youngVotes ++;
+            }
+         } else if(b.age < 36){
+            a.mids ++;
+            if(b.voted){
+               a.midVotes ++;
+            }
+         } else{
+            if(b.age){
+               a.olds ++;
+               if(b.voted){
+                  a.oldVotes ++;
+               }
+         }}
+         return a
+      },
+      {
+         youngVotes: 0,
+         youth: 0,
+         midVotes: 0,
+         mids: 0,
+         oldVotes: 0,
+         olds: 0  
+      })
+   
+      // your code here
+   }
+   
+   console.log(voterResults(voters)); // Returned value shown below:
 
 
 
-console.log(voterResults(voters)); // Returned value shown below:
-/*
-{ youngVotes: 1,
- youth: 4,
- midVotes: 3,
- mids: 4,
- oldVotes: 3,
- olds: 4 
-} 18-25 yo, 26-35, 36-55
-*/

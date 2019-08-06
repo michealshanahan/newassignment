@@ -1,0 +1,188 @@
+body{
+    background-color: antiquewhite;
+}
+.headerA{
+    display: flex;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwUU_tkZy6SKzYi3Yg6aWrU7ZYGXJ2244ogNN4uR-nwA4EMQHqyQ) grey;
+    height: 200px;
+    justify-content: flex-end;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+   
+}
+.top{
+    margin-left: 10px;
+}
+.mountainContainer{
+    width: 160px;
+    height: 180px;
+}
+.mountain{
+    background-color: transparent;
+    width: 100%;
+    height: 80%;
+}
+
+.headContainer{
+    justify-content: center;
+    height: 120px;
+    width: 500px;
+    display: flex;
+    margin: 10px auto auto auto;
+    
+}
+.titleContainer{
+    display: inline-block;
+}
+
+.window{
+    height: 100%;
+    
+}
+.title{
+    color: #a8aaa2;
+    display: inline-block;
+    font-size: 30px;
+    height: 50%;
+    width: 400px;
+    vertical-align: top;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.subtitle{
+    color: #a8aaa2;
+    height: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+.navBar{
+    
+    width: 100%;
+    margin-top: 10px;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+.nav{
+    text-decoration: none;
+    color: #a8aaa2;
+    width: 100%;
+    margin-left:10%;
+    margin-top: 1%;
+    justify-content: flex-end;
+}
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -45px;
+}
+.footer{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.foot{
+    color: white
+}
+.textField{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    display: flex;
+    margin: auto;
+
+}
+.userInfo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+}
+.user{
+    padding:6px
+}
+.profileImg{
+    width: auto;
+    height: 400px;
+}
+.companyProfile{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 10px;
+}
+.top{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-top: -5px;
+
+}
+@media(max-width:750px){
+    .mountain{
+        display: none;
+    }
+    .window{
+        display: none;
+    }
+    .constructionImg{
+        width: 100%;
+    }
+    .title{
+        width: 100%;
+        margin-left: 3px;
+    }
+    .subtitle{
+        display: none;
+    }
+    .navContainer{
+        width: 100%;
+        margin-left: -10px;
+        margin-top: -54px;
+    }
+    .top{
+        width: 95%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3px;
+    }
+    .profileImg{
+        width: 100%;
+    }
+    .companyProfile{
+        width: 95%;
+    }
+    .userInfo{
+        display: flex;
+        flex-direction: column;
+    }
+    .textField{
+        width: 100%;
+    }
+    .form{
+        width: 80%;
+    }
+    .foot{
+        margin-left: 3px;
+    }
+}

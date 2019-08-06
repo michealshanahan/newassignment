@@ -4,11 +4,10 @@ function sum(x, y){
         if((typeof(x + y)) !== "number"){
            throw "Enter only numbers" 
         }else{
-        return x + y;
+        console.log(x + y);
         } 
     }catch(err){
         console.log(err)
-    }finally{
     }
 }
     
@@ -19,7 +18,7 @@ sum(3, "we")
 const user = {username: "sam", password: "123abc"};
 
 
-function login(username, password){
+const login = (username, password) => {
         try{
             if (user.username === username && user.password === password){
                 console.log ("login sucessful")

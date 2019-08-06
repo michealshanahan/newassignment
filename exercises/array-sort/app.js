@@ -1,25 +1,25 @@
-// const arr = [1, 3, 5, 2, 90, 20];
-// const stringsArray = ["dog", "wolf", "by", "family", "eaten"]
-// // const newArray = arr.sort((a,b) => {
-// //     return a - b;
-// // })
-// //   console.log(newArray)
+const arr = [1, 3, 5, 2, 90, 20];
+const stringsArray = ["dog", "wolf", "by", "family", "eaten"]
+const newArray = arr.sort((a,b) => {
+    return a - b;
+})
+  console.log(newArray)
   
 
-// const xArray = arr.sort((a, b) => {
-//     return b - a;
-// })
+const xArray = arr.sort((a, b) => {
+    return b - a;
+})
 
-// console.log(xArray)
+console.log(xArray)
 
-// const arrayShort = stringsArray.sort((a,b) => {
-//     return a.length - b.length;
-// }) 
+const arrayShort = stringsArray.sort((a,b) => {
+    return a.length - b.length;
+}) 
 
-// console.log(arrayShort)
+console.log(arrayShort)
 
-// const alph = stringsArray.sort()
-// console.log(alph)
+const alph = stringsArray.sort()
+console.log(alph)
  
 const byAge = (array) => {
     const x = array.sort((a, b) => {
