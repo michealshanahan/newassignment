@@ -1,0 +1,33 @@
+Parent Component:
+
+return(
+    <div>
+        <AppName propsElement = {'Text or Attribute you want'} />
+    example:
+        <AppName title = {'This is the Title'} subtitle = {'This will show in the subtitle'} color = {'green} />
+    
+
+    <div/>
+
+)
+
+Child Component:
+
+styles = {
+    height: "60px",
+    background: props.color
+}
+Const AppName = (props) => {
+
+    return(
+        <div>
+            <elementToUseProps {props.message}></elementToUseProps> 
+            example:
+            <div style = styles>
+                <h1>{props.title}</h1>
+                <h3>{props.subtitle}</h3>
+            </div>
+
+        </div>
+    )
+}
