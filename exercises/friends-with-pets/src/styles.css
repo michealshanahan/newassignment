@@ -1,0 +1,19 @@
+.absolute{
+    display: relative;
+}
+.friendCard{
+    display: relative;
+
+}
+.profilePic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px
+}
+.friend{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px
+}

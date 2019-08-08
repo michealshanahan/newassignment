@@ -9,3 +9,4 @@ for(i = 0; i < people.length; i++){
     }
     console.log(people[i].concat(parSpace, newArray))
 }
+
