@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.names{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    align-items: center;
+    text-align: center;
+    display: absolute;
+    left: 40%;
+
+}
+.input{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ }
