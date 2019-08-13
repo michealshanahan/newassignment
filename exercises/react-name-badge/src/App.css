@@ -1,0 +1,63 @@
+.badgeForm{
+    padding-top: 10pt;
+    border-style: solid;
+    width: 60%;
+    margin: auto;
+    margin-top: 20pt;
+    border-radius: 5pt;
+    height: 200pt;
+}
+.text-area{
+    margin-left: 5%;
+    margin-top: 10pt;
+    width: 90%
+
+}
+.badgeContainer{
+    border-style: solid;
+    width: 60%;
+    margin: auto;
+    margin-top: 20pt;
+    border-radius: 5pt
+}
+span{
+    margin-left: 8pt
+}
+.input{
+    width: 42%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 10pt;
+}
+.badgeTitle{
+    background: #444;
+    color: white;
+    text-align: left;
+    height: 20pt;
+}
+.redTitle{
+    background: red
+}
+.blueTitle{
+    background: blue
+}
+.button{
+    margin-left: 46%
+}
+.badgeForm{
+    width: 60%;
+    margin: auto;
+}
+.about-me{
+    width: 90%;
+    margin: auto;
+    border-style: solid;
+    height: 100pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt
+
+}
+.red{
+    border-color: red;
+    color: red;
+}
