@@ -1,0 +1,13 @@
+.toWhack{
+    display: inline-block;
+    width: 30%;
+    height: 160pt;
+    padding: 10pt;
+    position: relative;
+}
+.targets{
+    height: 80%;
+    background-size: contain;
+    width: 80%;
+    position: absolute;
+}
