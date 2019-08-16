@@ -15,11 +15,17 @@ class Todos extends Component {
     deleteTodo = (id) => {
         Axios.delete(`https://api.vschool.io/mikeshanahan/todo/${id}`)
         return this.setState(prev => {
-            const filtered = prev.filter(each =>{
+            console.log(prev)
+            const filtered = prev.todoList.filter(each =>{
+                console.log(each)
                 return each._id !== id
-            })        
+            })      
+            return{ todoList: filtered}  
         })
     } 
+    editTodo = (id) => {
+        Axios.put(`https://api.vschool.io/mikeshanahan/todo/${id}`, {editedTodo})
+    }
     
     mappedTodos = () => {
         return this.state.todoList.map((todo, index) => {
@@ -27,6 +33,7 @@ class Todos extends Component {
             <div>
                 <div key = {todo._id}>{todo.title} {todo.price}{todo.description}{todo.imgUrl} </div>
                 <button onClick = {()=>this.deleteTodo(todo._id)} >Delete</button>
+                <button onClick = {() => this.editTodo(todo._id)} >Edit</button>
             </div>) 
         })
     }
