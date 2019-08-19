@@ -17,8 +17,9 @@ class Form extends Component{
     handleSubmit = (event) => {
         event.preventDefault()
         
+
         Axios.post('https://api.vschool.io/mikeshanahan/todo/', this.state).then(res => {
-            this.props.changeParentState(res.data)
+            this.props.changeParentState(this.state)
         })
 
     }

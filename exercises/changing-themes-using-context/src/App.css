@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+body{
+    min-height: 100%
+}
+
+.header{
+    margin-top: -3pt;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.main{
+    height: 550pt
+}
+.darktrue{
+    background: black;
+    color: green;
+    transition: .5s;
+}
+.darktrue > a{
+    text-decoration: none;
+    color: yellow;
+    transition: .5s;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+a {
+    display: flex;
+    justify-content: space-around
+}
+.buttontrue{
+    background: yellow;
+    transition: 1s;
+}
