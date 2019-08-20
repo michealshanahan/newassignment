@@ -21,8 +21,5 @@ class TodoProvider extends Component {
 export default TodoProvider
 
 export const withTodo = (c) => {
-    return (props) => 
-    <Consumer>
-        {value => <c {...value}{...props} />}
-    </Consumer>
+    
 }
