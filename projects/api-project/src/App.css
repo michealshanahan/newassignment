@@ -1,0 +1,202 @@
+.header-container{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKF3e_j70CGEU75SoOfJLhhsOaK_W0ui5voKGcACtyl4QqT96Hug');
+    height: 120pt;
+    background-size: 100%;
+    display: inline-block;
+    position: relative;
+    width: 103%;
+    margin-left: -1%;
+    margin-top: -1%;
+    color: bisque
+}
+.display-false{
+    display: none
+}
+
+.title{
+    margin-top: 10pt;
+    width: 100%;
+    text-align: center;
+    font-size: 22pt
+}
+.header-buttons{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    bottom: 0
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline
+}
+.button-list:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.button-list:hover .list-container{
+    display: block;
+}
+.list-container:hover {
+    display: block
+}
+
+
+.display-true{
+    transition: 0.2s
+}
+.list-container{
+    background: teal;
+    position: absolute;
+    z-index: 99;
+}
+.list-items{
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: -100;
+    min-width: 80pt;
+    margin-left: 10pt
+}
+.button-list{
+    position: relative;
+    display: inline-block;
+    left: 40pt
+}
+.search-button{
+    padding-right: 0pt;
+    position: relative;
+    right: 59pt;
+    width: 45pt;
+}
+.drink-image{
+    min-width: 38%;
+    max-width: 45%;
+    height: auto;
+    z-index: -1;
+    position: inherit;
+    right: -31pt;
+}
+.drink-list-item{
+    display: inline-block;
+    width: 33%;
+}
+.drink-list-item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.remove-button{
+    margin-top: 28pt;
+    width:110pt;
+    margin-left: 39pt;
+}
+.star-container{
+    padding: 20pt;
+    width: 30%
+}
+.fav-image{
+    min-width: 200pt;
+    max-width: 308pt;
+    display: inline-block;
+    height: auto;
+}
+
+.drink-card{
+    font-size: 16pt;
+    position: relative;
+}
+.drink-info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+}
+.drink-list{
+    width: 80%;
+}
+
+.drink-title{
+    text-align: center;
+    font-size: 28pt;
+    z-index: -5;
+    position: inherit;
+}
+.ingredient{
+    display: block;
+    margin-top: 8%;
+}
+.rating{
+    color: gold
+}
+
+.starFive:hover{
+    color: gold;
+    cursor: pointer;
+    
+}
+.fav-container{
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    padding: 20pt;
+}
+.black{
+    color: black
+}
+@media (max-width: 600pt){
+    .header-buttons{
+       flex-direction: column
+    }
+    .title {
+        margin-top: -1pt;
+        width: 100%;
+        text-align: center;
+        font-size: 19pt;
+    }
+    .drink-info {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .ingredient {
+        display: block;
+        margin-top: 0%;
+    }
+    input {
+        width: 39%;
+        position: absolute;
+        bottom: 76px;
+        right: 48px;
+    }
+    .fav-image {
+        min-width: 200pt;
+        max-width: 224pt;
+        display: inline-block;
+        height: auto;
+    }
+    .button-list {
+        position: relative;
+        display: inline-block;
+        left: 0;
+        margin-top: 6pt;
+    }
+    a{
+        margin-top: 6pt;
+    }
+    .search-button {
+        padding-right: 0pt;
+        position: absolute;
+        width: 45pt;
+        margin-top: -9pt;
+        color: black;
+        background: white;
+        right: 49px;
+    }
+    
+}
+
