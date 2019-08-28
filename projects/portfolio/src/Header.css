@@ -1,0 +1,17 @@
+.desk-image{
+    background: #FCDEB5;
+    height:300pt;
+    width: 102%;
+    margin-left: -1%;
+    margin-top: -10pt;
+    color: #2B0707;
+}
+.image{
+    opacity: 0.2;
+}
+
+.business-card{
+    width: 100pt;
+    height: 50pt;
+    background: green
+}
