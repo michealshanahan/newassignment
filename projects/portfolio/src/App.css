@@ -11,3 +11,14 @@
     display: inline-block;
     
 }
+.portfolio-card {
+    width: 49%;
+    height: 195pt;
+}
+.portfolio-card:hover .description {
+    height: 400pt;
+}
+.card-icon{
+    background: transparent;
+    color: transparent;
+}

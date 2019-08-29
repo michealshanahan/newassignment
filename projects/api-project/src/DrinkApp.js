@@ -2,14 +2,14 @@ import React, {Component} from 'react'
 import {Switch, Route } from 'react-router-dom'
 
 import {withState} from './DrinkProvider.js'
-import Header from './Header'
+import Header from './DrinkHeader'
 import Main from './Main.js'
 import CategoryMenu from './CategoryMenu.js'
 import Favorites from './Favorites.js'
 
-import './App.css'
+import './DrinkApp.css'
 
-class App extends Component {
+class DrinkApp extends Component {
     render(){
         return (
             <div>
@@ -24,4 +24,4 @@ class App extends Component {
     }
 }
 
-export default withState(App)
+export default withState(DrinkApp)
