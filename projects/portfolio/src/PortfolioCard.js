@@ -1,12 +1,16 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const PortfolioCard = (props) => {
-    let {cardIcon, altText, iconText, cardColor, cardDescription, complementaryColor } = props.item
+    let {cardIcon, iconText, cardColor, cardDescription, complementaryColor } = props.item
     return(
         <div className="portfolio-card" style= {{background: cardColor}}>
-            <button onClick = {()=>console.log(props.item)} >This Closk</button>
-            <img className = 'card-icon' src = {cardIcon} alt = {altText}/>
-            <span className = 'icon-text' >{iconText}</span>
+
+            <div className = 'icon-wrapper'>
+                <FontAwesomeIcon className= 'card-icon' icon= {cardIcon} style = {{color: complementaryColor}} />
+                <br></br>
+                <span className = 'icon-text' style = {{color: complementaryColor}} >{iconText}</span>
+            </div>
             <div className = 'description' style= {{background: complementaryColor}} >{cardDescription}</div>
 
         </div>

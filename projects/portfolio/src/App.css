@@ -12,13 +12,49 @@
     
 }
 .portfolio-card {
-    width: 49%;
+    width: 33%;
     height: 195pt;
+    display: inline-block;
+    position: relative;
+    margin-left: -5pt;
+}
+.description{
+    height: 30pt;
+    position: absolute;
+    bottom: -30pt;
+    transition: 0.3s;
+}
+.portfolio-card:hover .card-icon{
+    font-size: 60pt;
+    transition: 0.3s;
 }
 .portfolio-card:hover .description {
-    height: 400pt;
+    
+    -webkit-transform: translatey(-100%); 
+    -moz-transform: translatey(-100%); 
+    -ms-transform: translatey(-100%); 
+    -o-transform: translatey(-100%); 
+    transform: translatey(-100%); 
+    transition: 0.3s
 }
 .card-icon{
-    background: transparent;
-    color: transparent;
+    font-size: 80pt;
+    margin-top: 47pt;
+    transition: 0.3s;
+}
+.icon-wrapper{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.text-bottom{
+    background: mintcream;
+    position: relative;
+    z-index: 99;
+    margin-left: -1%;
+    width: 102%;
+    height: 600pt;
+}
+.icon-text{
+    font-size: 15pt;
 }

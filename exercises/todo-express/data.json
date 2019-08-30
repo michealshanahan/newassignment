@@ -1,0 +1,28 @@
+[
+    {
+      "place": "Meridian, Idaho",
+      "price": 40,
+      "timeToGo": "Spring",
+      "_id": "adsfasdf787sdf87s"
+    },{
+      "place": "Cancun",
+      "price": 900,
+      "timeToGo": "Winter",
+      "_id": "rqwe87xdf87qe"
+    },{
+      "place": "China",
+      "price": 1200,
+      "timeToGo": "Fall",
+      "_id": "zc8vb7s8fggcbv8a"
+    },{
+      "place": "Russia",
+      "price": 1100,
+      "timeToGo": "Summer",
+      "_id": "hgf98hw8d7v8"
+    },{
+      "place": "Lebanon",
+      "price": 400,
+      "timeToGo": "Spring",
+      "_id": "a87e9v978serv"
+    }
+  ]
