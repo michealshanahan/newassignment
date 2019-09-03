@@ -1,0 +1,50 @@
+[
+    {
+        "firstName": "C",
+        "lastName": "3pO",
+        "alive": true,
+        "bounty": 600,
+        "type": "sith Lord",
+        "_id": "dfjkasdhfjkldsahfk"
+    },
+    {
+        "firstName": "Lukes",
+        "lastName": "Mom",
+        "alive": true,
+        "bounty": 30,
+        "type": "sith Lord",
+        "_id": "dfjkasdhfkldsahfk"
+    },
+    {
+        "firstName": "Lukes",
+        "lastName": "Cousin",
+        "alive": true,
+        "bounty": 60,
+        "type": "sith Lord",
+        "_id": "dfjkdhfjkldsahfk"
+    },
+    {
+        "firstName": "Lukes",
+        "lastName": "Horse",
+        "alive": true,
+        "bounty": 600,
+        "type": "sith Lord",
+        "_id": "dsdhfjkldsahfk"
+    },
+    {
+        "firstName": "Lukes",
+        "lastName": "X-wing",
+        "alive": true,
+        "bounty": 6004,
+        "type": "sith Lord",
+        "_id": "dfjkasdhdsahfk"
+    },
+    {
+        "firstName": "Lukes",
+        "lastName": "Fake Hand",
+        "alive": true,
+        "bounty": 400,
+        "type": "sith Lord",
+        "_id": "kasdhfjkldsahfk"
+    }
+]

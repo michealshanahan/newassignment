@@ -4,23 +4,25 @@ import { Switch, Route } from 'react-router-dom'
 import Header from './Header.js'
 import Resume from './Resume.js'
 import Portfolio from './Portfolio.js'
+import Footer from './Footer.js'
 
+import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import {faCocktail} from '@fortawesome/free-solid-svg-icons'
+import {faEnvelopeSquare, faCocktail, faPlane, faPhoneSquare,  } from '@fortawesome/free-solid-svg-icons'
 import './App.css'
 
-library.add(faCocktail)
+library.add(faEnvelopeSquare, fab, faCocktail, faPlane, faPhoneSquare )
 
 const App = () => {
     return(
         <div>
             <Header />
-                <i class="fas fa-cocktail"></i>
+                
             <Switch >
-                {/* <Route exact path = '/' component = { Portfolio } /> */}
+                <Route exact path = '/' component = { Portfolio } />
                 <Route path = '/resume' component = { Resume } />
             </Switch>
-            <Portfolio />
+            <Footer />
         </div>
     )
 }

@@ -1,0 +1,92 @@
+[
+    {
+        "firstName": "C",
+        "lastName": "3pO",
+        "alive": true,
+        "bounty": 600,
+        "type": "sith Lord",
+        "reason": "he is the worst",
+        "_id": "dfjkasdhfjkldsahfk"
+    },
+    {
+        "firstName": "Lukes",
+        "lastName": "Mom",
+        "alive": true,
+        "bounty": 30,
+        "type": "sith Lord",
+        "reason": "he is the worst",
+        "_id": "dfjkasdhfkldsahfk"
+    },
+    {
+        "firstName": "Lukes",
+        "lastName": "Cousin",
+        "reason": "he is the worst",
+        "alive": true,
+        "bounty": 60,
+        "type": "sith Lord",
+        "_id": "dfjkdhfjkldsahfk"
+    },
+    {
+        "firstName": "Lukes",
+        "lastName": "Horse",
+        "reason": "he is the worst",
+        "alive": true,
+        "bounty": 600,
+        "type": "sith Lord",
+        "_id": "dsdhfjkldsahfk"
+    },
+    {
+        "firstName": "Lukes",
+        "lastName": "X-wing",
+        "reason": "he is the worst",
+        "alive": true,
+        "bounty": 6004,
+        "type": "sith Lord",
+        "_id": "dfjkasdhdsahfk"
+    },
+    {
+        "firstName": "Lukes",
+        "lastName": "Fake Hand",
+        "reason": "he is the worst",
+        "alive": true,
+        "bounty": 400,
+        "type": "sith Lord",
+        "_id": "kasdhfjkldsahfk"
+    },
+    {
+        "firstName": "banana",
+        "type": "food",
+        "bounty": 200,
+        "_id": "fhuhfdfdfdruh"    
+    },{
+        "firstName": "pants",
+        "type": "clothing",
+        "bounty": 2500,
+        "_id": "fhurghrgtghruh"
+    },{
+        "firstName": "basket ball",
+        "type": "toy",
+        "bounty": 1000,
+        "_id": "fhuhruhghthbtr"
+    },{
+        "firstName": "rockem sockem robots",
+        "type": "toy",
+        "bounty": 1500,
+        "_id": "fhuhruhghg"
+    },{
+        "firstName": "shirt",
+        "type": "clothing",
+        "bounty": 800,
+        "_id": "fhuhfdgsgfdfgdruh"    
+    },{
+        "firstName": "soup",
+        "type": "food",
+        "bounty": 300,
+        "_id": "fhuffffffffffhruh"    
+    },{
+        "firstName": "flour",
+        "type": "food",
+        "bounty": 100,
+        "_id": "fhfdfdfdfuhruh"    
+}
+]
