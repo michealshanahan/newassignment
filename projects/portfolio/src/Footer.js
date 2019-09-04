@@ -1,9 +1,11 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+
+
 const Footer = () => {
     return(
-        <div className= 'footer-container'>
+        <div className= 'footer-container' id = 'footer'>
             <div className = 'contact-info'>
                 <span className="contact">Micheal Shanahan</span>
                 <span className="contact">
@@ -14,12 +16,11 @@ const Footer = () => {
                     <FontAwesomeIcon className= 'contact' icon={['fab', 'github-square']} />
                     Github: https://github.com/michealshanahan
                 </a>
-                <span className="contact">
+                <a class="contact" href="mailto:m_shanahan@hotmail.com?Subject=Developer">
                     <FontAwesomeIcon className= 'contact' icon= 'envelope-square' />
-                    envelope-square
-                </span>
+                    e-mail: m_shanahan@hotmail.com
+                    </a>
             </div>
-            <a name= '#linkToBottom'></a>
         </div>
     )
 }

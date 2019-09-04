@@ -1,10 +1,12 @@
 .desk-image{
-    background: #FCDEB5;
-    height:300pt;
+    background: #2098d1;
+    height:500pt;
     width: 102%;
     margin-left: -1%;
     margin-top: -10pt;
     color: #2B0707; position: relative; 
+    text-align: center;
+    color: azure;
 }
 .list-links{
     position: absolute;
@@ -12,17 +14,19 @@
     justify-content: space-around;
     width: 30%;
     text-decoration: none;
-    margin-left: 39%;
+    margin-left: 52%;
 }
-.list-links > a{
+a{
     text-decoration: none;
+    color: inherit;
 }
 .image{
     opacity: 0.2;
 }
 
 .business-card{
-    width: 100pt;
+    width: 300pt;
     height: 50pt;
-    background: green
+    display: inline-block;
+    margin-top: 202pt;
 }

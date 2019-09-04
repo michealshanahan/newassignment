@@ -8,24 +8,24 @@ const Portfolio = () => {
     {
         cardIcon: "cocktail",
         iconText: 'Drink Recipes',
-        cardColor: '#841515',
+        cardColor: 'darkgrey',
         cardDescription: 'This is an site that makes an API request and renders a drink recipe and instructions',
         cardLink: 'drink-recipe.surge.sh',
-        complementaryColor: '#158484'
+        complementaryColor: '#2ca5df'
     },{
         cardIcon: "plane",
         iconText: 'Drink Recipes',
-        cardColor: '#841515',
+        cardColor: 'aliceblue',
         cardDescription: 'This is an site that makes an API request and renders a drink recipe and instructions',
         cardLink: 'drink-recipe.surge.sh',
-        complementaryColor: '#158484'
+        complementaryColor: '#2ca5df'
     },{
         cardIcon: "cocktail",
         iconText: 'Drink Recipes',
-        cardColor: '#841515',
+        cardColor: '#696969',
         cardDescription: 'This is an site that makes an API request and renders a drink recipe and instructions',
         cardLink: 'drink-recipe.surge.sh',
-        complementaryColor: '#158484'
+        complementaryColor: '#2ca5df'
     },{
         cardIcon: "cocktail",
         iconText: 'Drink Recipes',

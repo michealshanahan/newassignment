@@ -22,6 +22,7 @@ const App = () => {
                 <Route exact path = '/' component = { Portfolio } />
                 <Route path = '/resume' component = { Resume } />
             </Switch>
+            <section id= 'footer' />
             <Footer />
         </div>
     )
