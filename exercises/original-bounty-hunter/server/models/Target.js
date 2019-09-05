@@ -11,11 +11,15 @@ const targetSchema = new Schema({
             type: Boolean,
             default: true
         },
+        jedi: {
+            type: Boolean,
+            default: true
+        },
         bounty: {
             type: Number,
             required: true
         },
-        type: String
+        imgUrl: String
 })
 
 module.exports = mongoose.model("Target", targetSchema)

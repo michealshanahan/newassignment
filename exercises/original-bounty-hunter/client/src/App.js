@@ -1,9 +1,11 @@
 import React from 'react'
+import Targets from './Targets.js'
 
 const App = () => {
     return(
         <div>
-            test
+            <Targets />
+            
         </div>
     )
 }

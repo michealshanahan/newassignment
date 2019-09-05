@@ -1,0 +1,14 @@
+.target-container{
+    width: 100%;
+    text-align: center;
+}
+.jedi-true{
+    background: rgb(140, 223, 140)
+}
+.jedi-false{
+    background: rgba(143, 6, 6, 0.883);
+}
+.target-card{
+    display: inline-block;
+    width: 30%;
+}

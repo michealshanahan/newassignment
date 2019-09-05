@@ -1,5 +1,5 @@
 const express = require('express')
-const targets = require('./target.json')
+
 const Target = require('./models/Target.js')
 const bountyRouter = express.Router()
 
@@ -13,7 +13,6 @@ bountyRouter.route('/')
     })
     .post((req, res) => {
         const newTarget = new Target(req.body)
-        console.log(newTarget)
         newTarget.save(err => {
             if(err) return res.status(500).send(err)
             return res.status(201).send(newTarget)
@@ -29,7 +28,7 @@ bountyRouter.route('/:_id')
             if (err) return res.status(500).send(err)
             return res.status(200).send(target)
         })
-        })
+    })
     .put((req,res) => {
         const _id = req.params._id
         Target.findByIdAndUpdate(_id,req.body, {new: true}, (err, target) => {
