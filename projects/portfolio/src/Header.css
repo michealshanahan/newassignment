@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 .desk-image{
     background: #2098d1;
     height:500pt;

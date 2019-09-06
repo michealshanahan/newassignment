@@ -24,9 +24,9 @@
     margin-bottom: -4pt;
 }
 .description{
-    height: 30pt;
+    height: 40pt;
     position: absolute;
-    bottom: -30pt;
+    bottom: -40pt;
     transition: 0.3s;
     text-align: center;
 }
