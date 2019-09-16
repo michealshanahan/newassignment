@@ -1,33 +1,63 @@
 {
     "jsonsMenu": {
-        "appetizers" : [{
-            "name": "chickenWings",
-            "ingredients": ["chicken", "hotsauce", "bleuCheese"],
-            "description": "bird wings cut up then baked"
-        },{
-            "name": "salad",
-            "ingredients": ["lettuce","cheese", "tomato"],
-            "description": "A salad with dressing" 
-        },{
-            "name": "chipsAndSalsa",
-            "ingredients": ["chips", "salsa", "cilantro"],
-            "description": "Tortilla chips served with homemade salsa and, as always, way to much cilantro"
-        }],
-        "coldSandwiches" : [{
-            "name": "turkeyOnWheat",
-            "ingredients": ["turkeyBreast", "swissCheese", "lettuce", "wheatBread"],
-            "description": "The classic sandwich"
-        },{
-            "name": "hamAndCheese",
-            "ingredients": ["ham", "cheese", "whiteBread"],
-            "description": "Grilled ham sandwich"
-        }],
-        "hotSandwiches": [{
-            "name": "sweetMangoChicken",
-            "ingredients": ["mangoSalsa", "grilledChicken", "bread"],
-            "description": "Grilled chicken sandwich with mango"
-        },{
-            "name": "hotCarl"
-        }]
+        "appetizers" : [
+            {
+                "name": "chickenWings",
+                "ingredients": ["chicken", "hotsauce", "bleuCheese"],
+                "description": "bird wings cut up then baked"
+            },{
+                "name": "salad",
+                "ingredients": ["lettuce","cheese", "tomato"],
+                "description": "A salad with dressing" 
+            },{
+                "name": "chipsAndSalsa",
+                "ingredients": ["chips", "salsa", "cilantro"],
+                "description": "Tortilla chips served with homemade salsa and, as always, way to much cilantro"
+            }
+        ],
+        "coldSandwiches" : [
+            {
+                "name": "turkeyOnWheat",
+                "ingredients": ["turkeyBreast", "swissCheese", "lettuce", "wheatBread"],
+                "description": "The classic sandwich"
+            },{
+                "name": "hamAndCheese",
+                "ingredients": ["ham", "cheese", "whiteBread"],
+                "description": "Grilled ham sandwich"
+            }
+        ],
+        "hotSandwiches": [
+            {
+                "name": "sweetMangoChicken",
+                "ingredients": ["mangoSalsa", "grilledChicken", "bread"],
+                "description": "Grilled chicken sandwich with mango"
+            },{
+                "name": "hotTurkeyAndSwiss",
+                "ingredients": ["turkey", "swissCheese", "lettuce", "secretSauce"],
+                "description": "Turkey and swiss grilled to perfection"
+            }
+        ],
+        "deserts" : [
+            {
+                "name": "chocolateChipCookie",
+                "ingredients": ["chocolateChips", "cookie"],
+                "description": "House made chocolate cookie"
+            },{
+                "name": "milkShake",
+                "ingredients": ["milk", "icecream"],
+                "description": "A milkshake in your choice of strawberry or vanilla"
+            }
+        ],
+        "drinks" : [
+            {
+                "name": "coffee",
+                "ingredients": ["hotWater", "coffee"],
+                "description": "Hot bean juice with cream and sugar"
+            },{
+                "name": "soda",
+                "ingredients": ["soda", "ice"],
+                "description": "soda"
+            }
+        ]
     }
 }
