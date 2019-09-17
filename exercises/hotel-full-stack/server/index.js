@@ -1,12 +1,23 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
-const port = 5566
+const expressJwt = require("express-jwt")
+require('dotenv').config()
+const port = process.env.SECRET
 
 app.use('/', express.json())
 
 app.use('/users', require('./routers/UsersRouter'))
+app.use('/api', expressJwt({ secret: process.env.SECRET}))
 app.use('/reservations', require('./routers/ReservationsRouter'))
+
+app.use((err, req, res, next) => {
+    console.log(err)
+    if(err.name === "UnauthorizedError"){
+        res.status(err.status)
+    }
+    return res.send({ message: err.message})
+})
 
 mongoose.connect('mongodb://localhost:27017/users', {useNewUrlParser: true}).then(() => {
     console.log('connected to mongo')
