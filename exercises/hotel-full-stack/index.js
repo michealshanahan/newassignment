@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const app = express()
 const expressJwt = require("express-jwt")
 require('dotenv').config()
-const port = process.env.SECRET
+const port = 5566
 
 app.use('/', express.json())
 

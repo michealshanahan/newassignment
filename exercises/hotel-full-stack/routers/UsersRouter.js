@@ -47,5 +47,26 @@ userRouter.route('/:_id')
         })
     })
 
+userRouter.post("/signup", (req, res, next) => {
+    User.findOne({ username: req.body.username }, (err, existingUser) => {
+        if( err ){
+            res.status(500)
+            return next(err)
+        }else if ( existingUser !== null ){
+            res.status(400)
+            return next(new Error("User Name is Taken"))
+        }
+        const newUser = new User( req.body )
+        newUser.save((err, user) => {
+            if(err){ 
+                res.status(500)
+                return next(err)
+            }
+            const token = jwt.sign(user.toObject(), process.env.SECRET)
+            return res.status( 201 ).send({user: user.toObject(), token})
+        })
+    })
+})
+
 module.exports = userRouter
 
