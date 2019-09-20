@@ -14,12 +14,21 @@ class UserProvider extends Component{
     }
  
     signup = (userInfo) => {
-        axios.post("/users/signup", userInfo).then(res => {
+        return axios.post("/users/signup", userInfo).then(res => {
             const { user, token } = res.data
             this.setState({ user, token })
             localStorage.setItem( "user", JSON.stringify( user ) )
-            console.log(JSON.stringify(user))
             localStorage.setItem( "token", token )
+            return res
+        })
+    }
+
+    login = (credentials ) => {
+        return axios.post( "/users/login", credentials ).then( res => {
+            const { user, token } = res.data 
+            this.setState({ user, token })
+            localStorage.setItem( "user", JSON.stringify( user ))
+            localStorage.setItem( "token", token)
             return res
         })
     }
@@ -28,6 +37,7 @@ class UserProvider extends Component{
         return(
             <Provider value = {{
                 signup: this.signup,
+                login: this.login,
                 ...this.state
             }} >
                 {this.props.children}

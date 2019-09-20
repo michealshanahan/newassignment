@@ -25,12 +25,11 @@ class UserSignup extends Component {
             e.preventDefault()
             
             this.props.signup( this.state )
-            // .then(res => {
-
-            //     console.log(res)
-            //     this.props.history.push( "/userprofile")
-            // }
-            // )
+            .then(res => {
+                console.log(this.props)
+                this.props.history.push( "/userprofile")
+            }
+            )
         } 
 
         return(

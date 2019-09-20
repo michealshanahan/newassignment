@@ -19,16 +19,14 @@ app.use((err, req, res, next) => {
     return res.send({ message: err.message})
 })
 
-mongoose.connect('mongodb://localhost:27017/users', {useNewUrlParser: true}).then(() => {
+mongoose.connect('mongodb://localhost:27017/hotel', {useNewUrlParser: true}).then(() => {
     console.log('connected to mongo')
 })
 .catch(err => {
     console.log(err)
 })
 
-mongoose.connect('mongodb://localhost:27017/reservations', {useNewUrlParser: true}).then(() => {
-    console.log('connected to mongo')
-})
+
 .catch(err => {
     console.log(err)
 })

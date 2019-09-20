@@ -68,5 +68,18 @@ userRouter.post("/signup", (req, res, next) => {
     })
 })
 
+userRouter.post("/login", (req, res, next) => {
+    User.findOne({ username: req.body.username.toLowerCase() }, (err, user) => {
+        if( err ){
+            return next( err )
+        }else if( !user || user.password !== req.body.password ) {
+            res.status( 403 )
+            return next( new Error( "Username or Password are Incorrect"))
+        }
+        const token = jwt.sign(user.toObject(), process.env.SECRET)
+        return res.send({ token: token, user: user.toObject()})
+    })
+})
+
 module.exports = userRouter
 
