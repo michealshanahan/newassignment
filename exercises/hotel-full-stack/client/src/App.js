@@ -1,17 +1,40 @@
 import React from 'react'
-import UserSignup from './UserSignup'
+import UserSignup from './User/UserSignup'
 import { Switch, Route } from 'react-router-dom'
-import UserProfile from './UserProfile'
-import UserLogin from './UserLogin'
+
+import ProtectedRoutes from './ProtectedRoutes'
+
+import UserProfile from './User/UserProfile'
+import UserLogin from './User/UserLogin'
+import Header from './Header'
+import UserReservation from './User/UserReservation'
+import ReservationConfirmation from './User/ReservationConfirmation'
+import StaffReservation from './Staff/StaffReservations'
+import Directions from './User/Directions'
+import Home from './User/Home'
+
+
+import "./App.css"
+
+
+
 
 const App = () => {
     return (
         <div>
-            <UserLogin />
+            <Header />
             <Switch>
-                <Route path = "/userprofile" component = { UserProfile } />
-                <Route exact path = '/' component = {UserSignup} />
+                <Route exact path = '/' component = { Home }/>
+                <Route path = '/directions' component = {Directions} />
+                <Route path = '/staffreservation' component = {StaffReservation} />
+                <Route path = "/login" component = { UserLogin}  />
+                <ProtectedRoutes path = "/userprofile" component = { UserProfile } />
+                <Route path = '/signup' component = {UserSignup} />
+                <Route path = '/newreservation' component = { UserReservation } />
+                <Route path = '/confirm' component = { ReservationConfirmation } />
+                
             </Switch>
+            
             
         </div>
     )

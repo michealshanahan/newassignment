@@ -2,34 +2,29 @@ const mongoose = require('mongoose' )
 const Schema = mongoose.Schema
 
 const reservationSchema = new Schema ({
-    name: {
+    title: {
         type: String,
         required: true
     },
-    userId: String,
-    rewardsId: String,
-    month: {
-        type: Number,
+    start:{
+        type: Date,
         required: true
     },
-    date: {
-        type: Number,
-        required: true
-    },
-    year: {
-        type: Number,
-        required: true
-    },
-    numberOfNights: {
-        type: Number,
+    end: {
+        type: Date,
         required: true
     },
     shuttleRequest: {
         type: Boolean,
         default: false
     },
-    shuttleTime: String
-
+    shuttleTime: String,
+    shuttleLocation: String,
+    user: {
+        type: Schema.Types.ObjectId,
+        ref: "User",
+        required: true
+    }
 })
 
 module.exports = mongoose.model('Reservations', reservationSchema)

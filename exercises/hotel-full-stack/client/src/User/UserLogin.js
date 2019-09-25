@@ -1,12 +1,13 @@
 import React, { Component } from "react"
-import { withUser } from "./UserProvider"
+import { withUser } from "../UserProvider"
 
 class UserLogin extends Component{
     constructor(){
         super()
         this.state = {
             username: '',
-            password: ''
+            password: '',
+            errorMessage: ''
         }
     }
 
@@ -20,8 +21,11 @@ class UserLogin extends Component{
         const handleSubmit = (e) => {
             e.preventDefault()
             this.props.login( this.state )
-            .then( res => this.props.history.push('/userprofile'))
-
+                .then( res => this.props.history.push('/userprofile'))
+                    .catch( err => {
+                        console.log(err.response.data.message)
+                        this.setState({ errorMessage: err.response.data.message })
+                    })
         }
 
         return(
@@ -31,6 +35,7 @@ class UserLogin extends Component{
                     <input name = "password" type="text" value = {this.state.password} placeholder = "Password" onChange = {handleChange} />
                     <button>Enter</button>
                 </form>
+                {this.state.errorMessage && <div className = "error-message" >{this.state.errorMessage}</div> }
             </div>
         )
     }
