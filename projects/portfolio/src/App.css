@@ -29,6 +29,8 @@
     bottom: -40pt;
     transition: 0.3s;
     text-align: center;
+    width: 100%;
+    font-size: 11pt;
 }
 .icon-text{
     font-size: 120%;
@@ -63,17 +65,23 @@
     position: absolute;
 }
 .text-bottom{
-    background: mintcream;
+    background: #969696;
     position: relative;
     z-index: 99;
     margin-left: -1%;
     width: 102%;
-    height: 700pt;
+    height: 200pt;
 }
 .footer-container{
     width: 102%;
     margin-left: -1%;
-    background: yellow;
+    background: #2ca5df;
     height: 200pt;
+}
+.contact-info{
+    margin-left: 20pt;
+}
+.contact{
+    margin-top:5pt;
     
 }
