@@ -12,9 +12,9 @@
     
 }
 .portfolio-wrapper{
-    width: 102%;
-    margin-left: -1%;
-    background: #FCDEB5;
+    width: 101%;
+    margin-left: -0.5%;
+    background: #2ca5df;
 }
 .portfolio-card {
     width: 33.2%;
@@ -68,13 +68,13 @@
     background: #969696;
     position: relative;
     z-index: 99;
-    margin-left: -1%;
-    width: 102%;
+    margin-left: -0.5%;
+    width: 101%;
     height: 200pt;
 }
 .footer-container{
-    width: 102%;
-    margin-left: -1%;
+    width: 101%;
+    margin-left: -0.5%;
     background: #2ca5df;
     height: 200pt;
 }
