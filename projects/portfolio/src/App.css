@@ -7,6 +7,16 @@
     
 
 }
+.image{
+    height: 100pt;
+    padding: 10pt;
+}
+.about{
+    display: flex;
+}
+.about-text {
+    padding-top: 10pt;
+}
 .resume-pdf{
     display: inline-block;
     
