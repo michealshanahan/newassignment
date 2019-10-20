@@ -1,11 +1,14 @@
 html {
     scroll-behavior: smooth;
   }
+body{
+    background: #2098d1;
+}
 .desk-image{
     background: #2098d1;
     height:80vh;
-    width: 101.5%;
-    margin-left: -1%;
+    width: 101%;
+    margin-left: -0.5%;
     margin-top: -10pt;
     color: #2B0707; 
     position: relative; 

@@ -11,8 +11,11 @@ const PortfolioCard = (props) => {
                 <br></br>
                 <span className = 'icon-text' style = {{color: complementaryColor}} >{iconText}</span>
             </div>
-            <div className = 'description' style= {{background: complementaryColor}} >{cardDescription}</div>
-
+            <div className = 'description' style= {{background: complementaryColor}} >
+                <span className = "description-text">
+                    {cardDescription}
+                </span>
+            </div>
         </a>
     )
 }

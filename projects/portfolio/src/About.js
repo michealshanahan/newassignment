@@ -5,7 +5,7 @@ const About = () => {
     return(
         <div>
             <div className = "about" >
-                <img src = {require("./assets/picture.JPG")} className = "image" alt = "photo" /> 
+                <img src = {require("./assets/picture.JPG")} className = "image" alt = "headshot" /> 
                 <span className = "about-text">
                     I am a web developer with an electronics background. I have experience with JavaScript, HTML, CSS, React, and databases including MongoDB. I also have experience programming highly sensitive electronics. I have great problem solving skills and an eye for detail. 
                     <br/>

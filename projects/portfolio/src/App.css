@@ -35,13 +35,16 @@
     margin-bottom: -4pt;
 }
 .description{
-    height: 40pt;
+    height: 50pt;
     position: absolute;
-    bottom: -40pt;
+    bottom: -50pt;
     transition: 0.3s;
     text-align: center;
     width: 100%;
     font-size: 11pt;
+}
+.description-text{
+    padding: 3pt;
 }
 .icon-text{
     font-size: 120%;
@@ -95,4 +98,28 @@
 .contact{
     margin-top:5pt;
     
+}
+
+@media (max-width: 780px){
+    .portfolio-card{
+        width: 101%
+    }
+    .list-links{
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        text-decoration: none;
+        left: 0%;
+    }
+    .description {
+    
+        -webkit-transform: translatey(-100%); 
+        -moz-transform: translatey(-100%); 
+        -ms-transform: translatey(-100%); 
+        -o-transform: translatey(-100%); 
+        transform: translatey(-100%); 
+        transition: 0.3s
+    }
+
 }
