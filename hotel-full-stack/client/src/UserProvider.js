@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import axios from "axios"
 const reservationAxios = axios.create()
 
-
 const { Consumer, Provider } = React.createContext()
 
 reservationAxios.interceptors.request.use((config) => {
