@@ -9,10 +9,10 @@ import About from './About.js'
 
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import {faEnvelopeSquare, faCocktail, faPlane, faPhoneSquare, faConciergeBell  } from '@fortawesome/free-solid-svg-icons'
+import {faEnvelopeSquare, faCocktail, faPlane, faPhoneSquare, faConciergeBell, faPiggyBank  } from '@fortawesome/free-solid-svg-icons'
 import './App.css'
 
-library.add(faEnvelopeSquare, fab, faCocktail, faPlane, faPhoneSquare, faConciergeBell )
+library.add(faEnvelopeSquare, fab, faCocktail, faPlane, faPhoneSquare, faConciergeBell, faPiggyBank )
 
 const App = () => {
     return(

@@ -34,3 +34,9 @@ a{
     display: inline-block;
     margin-top: 202pt;
 }
+.bottom-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10pt;
+}
