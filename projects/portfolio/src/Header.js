@@ -15,11 +15,11 @@ class Header extends Component {
         return(
             <div className = 'desk-image'>
                 <ul className = 'list-links' >
+                    
                     <Link to = '/'>Portfolio</Link>
                     <Link to = '/about'>About</Link>
                     <Link to = '/resume'>Resume</Link>
                     <a href = "#footer">Contact</a>
-                    
                     
                 </ul>
                 <div className = 'business-card'>
