@@ -154,10 +154,7 @@
         transition: 0.3s
     }
     .business-card {
-        width: 101%;
-        height: 50pt;
         display: inline;
-        margin-top: 202pt;
         position: inherit;
         top: 38pt;
     }
