@@ -15,7 +15,7 @@ class Header extends Component {
         return(
             <div className = 'desk-image'>
                 <ul className = 'list-links' >
-                    
+
                     <Link to = '/'>Portfolio</Link>
                     <Link to = '/about'>About</Link>
                     <Link to = '/resume'>Resume</Link>
@@ -24,7 +24,7 @@ class Header extends Component {
                 </ul>
                 <div className = 'business-card'>
                     <h1>Micheal Shanahan</h1>
-                    <h3>Full Stack Developer</h3>
+                    <h3>Developer</h3>
                     <h4>I have experience building web apps, a great attitude, and the ability to learn things quickly. I will make a great addition to your team!</h4>
                 </div>
                 <h4 className = "bottom-text" >Here are some examples of my work:</h4>
