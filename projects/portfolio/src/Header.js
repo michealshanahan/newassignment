@@ -27,6 +27,7 @@ class Header extends Component {
                     <h3>Developer</h3>
                     <h4>I have experience building web apps, a great attitude, and the ability to learn things quickly. I will make a great addition to your team!</h4>
                 </div>
+                <br></br>
                 <h4 className = "bottom-text" >Here are some examples of my work:</h4>
             </div>
         )
