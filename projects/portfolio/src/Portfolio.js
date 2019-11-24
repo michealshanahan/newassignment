@@ -9,7 +9,7 @@ const Portfolio = () => {
         cardIcon: "piggy-bank",
         iconText: 'Subscription Based Financial Advise',
         cardColor: '#696969',
-        cardDescription: 'FourSteps, a subscription based finicial advise site. This uses React.JS, MongoDB to build a database of users and provide each with custom advice.',
+        cardDescription: 'FourSteps, a subscription based financial advise site. This uses React.JS, MongoDB to build a database of users and provide each with custom advice.',
         cardLink: 'http://www.foursteps.io',
         complementaryColor: '#2ca5df'
     },
@@ -32,9 +32,11 @@ const Portfolio = () => {
     return (
         <div>
             <div className = 'portfolio-wrapper'>
-                {portfolioItems.map((item, index) => {
-                    return <PortfolioCard key = {item + index} item = {item}/>
-                })}
+                {
+                    portfolioItems.map((item, index) => {
+                        return <PortfolioCard key = {item + index} item = {item}/>
+                    })
+                }
             </div>
             <div className = 'text-bottom' ></div>
         </div>
