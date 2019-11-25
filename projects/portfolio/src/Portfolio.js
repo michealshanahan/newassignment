@@ -24,7 +24,7 @@ const Portfolio = () => {
         cardIcon: "concierge-bell",
         iconText: 'Hotel Reservations Database',
         cardColor: 'aliceblue',
-        cardDescription: 'A website I built that has user login and authentication, and creates a database of reservations using MongoDB',
+        cardDescription: 'A website I built that has user login, authentication, and creates a database of reservations using MongoDB.',
         cardLink: 'http://oak-springs.herokuapp.com/',
         complementaryColor: '#2ca5df'
     }
