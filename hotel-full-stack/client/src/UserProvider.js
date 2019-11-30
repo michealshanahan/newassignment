@@ -37,7 +37,7 @@ class UserProvider extends Component{
             })
     }
     staffGetReservations = () => {
-        return reservationAxios.get('/api/reservations/staff')
+        return reservationAxios.get('/api/reservations/staff' )
             .then(res => {
                 this.setState({ reservations: res.data})
                 return res
