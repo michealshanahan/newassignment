@@ -3,7 +3,7 @@ import React from 'react'
 const Used = () => {
     return(
         <div>
-            This class
+            Thi
         </div>
     )
 }
