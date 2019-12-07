@@ -17,7 +17,7 @@ const Portfolio = () => {
         cardIcon: "cocktail",
         iconText: 'Drink Recipes',
         cardColor: '#424242',
-        cardDescription: 'A solo project example of my work that makes an API request and renders a drink recipe and instructions. I used React, and Axios to make this.',
+        cardDescription: 'An example of my work that makes an API request and renders a drink recipe and instructions. I used React, and Axios to make this.',
         cardLink: 'http://www.drink-recipe.surge.sh',
         complementaryColor: '#2ca5df'
     },{
