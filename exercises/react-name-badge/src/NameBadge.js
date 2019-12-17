@@ -14,6 +14,7 @@ class NameBadge extends Component{
             favoriteFood: '',
             tellUsAboutYourself: '',
             badges: [{
+
                 fName: 'Marve',
                 lName: 'Last',
                 email: 'm_stenv@123.com',
@@ -21,8 +22,8 @@ class NameBadge extends Component{
                 phone: '4359998888',
                 favoriteFood: 'food',
                 tellUsAboutYourself: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo quod consequuntur ipsum, eligendi consequatur iste officia a, aperiam nesciunt excepturi unde accusantium dolor maiores. Quae tempora ipsum iste consectetur dolorem.'
-            }
-            ]
+            
+            }]
         }
     }
     handleChange = (event) => {

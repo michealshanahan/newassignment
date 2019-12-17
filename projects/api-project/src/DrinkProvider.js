@@ -83,7 +83,7 @@ class DrinkProvider extends Component{
                                 addStarsToDrink: this.addStarsToDrink,
                                 removeFav: this.removeFav,
                                 clearDrink: this.clearDrink,
-                                getDrinkList: this.getDrinkList}} >
+                                getDrinkList: this.getDrinkList}} > 
                                 
                 {this.props.children}
             </Provider>
