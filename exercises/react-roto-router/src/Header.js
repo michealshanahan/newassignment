@@ -17,7 +17,7 @@ class Header extends Component {
                 <ul className = 'linkContainer' >
                     <Link to = '/'>Home</Link>
                     <Link to = '/about'>About</Link>
-                    <Link to = 'services'>Services</Link>
+                    <Link to = '/services'>Services</Link>
                 </ul>
             </div>
         )
