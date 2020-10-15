@@ -11,7 +11,10 @@ function App() {
     <Router>
       <div className= "container">
         
-        <h2>Ho</h2>
+        <nav className="navbar navnar-expand-lg navbar-ligh bg-light">
+
+        </nav>
+
         <Route path="/" exact component={ TodosList } />
         <Route path="/edit/:id" component={ EditTodo } />
         <Route path="/create" component={ CreateTodo } />
