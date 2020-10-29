@@ -16,7 +16,6 @@ function App() {
         <nav className="navbar navnar-expand-lg navbar-ligh bg-light">
           <a className="navbar-brand" href="http://mike-shanahan.surge.sh/" >
             <img src={logo} width="30" height="30" alt="Mike-Shanahan.surge.sh/" />
-          
           </a>
         </nav>
 
